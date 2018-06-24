@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <section class="offset-md-4 col-md-4 col-sm-12" style=" border:black 1px solid; padding : 20px; border-radius: 10px;">
+        <form>
+            <div>
+                <center>
+                    <h3>STUDENT FORM</h3>
+                </center>
+            </div>
+            <div class="form-group">
+                <label for="examplename">Name</label>
+                <input type="name" class="form-control-inline" id="inputName" size="30">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleemail">E-mail</label>
+                <input type="email" class="form-control-inline" id="inputemail" size="30">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Gender</label>
+                <select class="form-control-inline" id="selectGender">
+                    <option value="">--select--</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="unknow">unknown</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Status :</label>
+                <label class="radio-inline">
+                    <input type="radio" name="maritalStatus" value="single">Single</label>
+                <label class="radio-inline">
+                    <input type="radio" name="maritalStatus" value="married">Married</label>
+                <label class="radio-inline">
+                    <input type="radio" name="maritalStatus" value="realtionship">In a relationship</label>
+            </div>
+            <div>
+                <button type="button" onclick="validate()" class="btn btn-primary">Submit</button>
+            </div>
+
+    </section>
+    <section class="offset-md-4 col-md-4 col-sm-12" style="padding-top: 30px; border:black 1px solid; margin-top: 30px; border-radius: 10px; ">
+        <form>
+            <center>
+                <h3>SUBMIT FORM</h3>
+            </center>
+            <p>
+                <span>Name :</span>
+                <span id="labelname"> </span>
+            </p>
+            <p>
+                <span>E-mail :</span>
+                <span id="labelemail"></span>
+            </p>
+            <p>
+                <span>Gender :</span>
+                <span id="labelgender"></span>
+            </p>
+            <p>
+                <span>Status :</span>
+                <span id="labelstatus"></span>
+            </p>
+
+        </form>
+    </section>
+
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+<script src="../js/task2.js"></script>
+
+</html>
